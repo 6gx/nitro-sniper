@@ -44,3 +44,8 @@ Click on the image below and login to continue the setup.
 - There's a really high risk you might get terminated using this. <br>
     - Do not mention you have this anywhere. <br>
     - This is technically stealing money from discord.
+
+# Credit
+- The credit goes to [Slow](https://github.com/slow) who made this nitro sniper repo.
+- I do not take any credit from this repo.
+- And i uploaded this repo so that one who wants the older version can use it.
