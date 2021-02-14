@@ -26,7 +26,7 @@ Click on the image below and login to continue the setup.
 
 ##### After deploying, Go to the `Resources` tab and turn off the `web` dyno and turn on `worker`. Now you can go ahead and click on `More` in the top right and click on logs.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/slow/nitro-sniper/tree/main)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/6gx/nitro-sniper/tree/main)  
 
 ## ___Local___
 - Make sure [Node](https://nodejs.org/en/) is installed on your system and open a command prompt/terminal.
