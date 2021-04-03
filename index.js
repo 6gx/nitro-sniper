@@ -78,7 +78,7 @@ for (const token of tokens) {
          }
 
          phin({
-            url: `https://discord.com/api/v6/entitlements/gift-codes/${code}/redeem`,
+            url: `https://discord.com/api/v8/entitlements/gift-codes/${code}/redeem`,
             method: 'POST',
             parse: 'json',
             headers: {
