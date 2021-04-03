@@ -5,8 +5,7 @@ const consumedCodes = [];
 require('dotenv').config({ path: 'dotenv' });
 
 const phin = require('phin').unpromisified;
-const { Util: { mergeDefault }, ClientOptions } = require('discord.js');
-const { Client } = require('discord.js-light');
+const { Client, WebhookClient, RichEmbed } = require('discord.js');
 const chalk = require('chalk');
 
 const tokens = process.env.guildTokens.split(',');
