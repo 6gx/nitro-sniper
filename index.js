@@ -5,7 +5,7 @@ const consumedCodes = [];
 require('dotenv').config({ path: 'dotenv' });
 
 const phin = require('phin').unpromisified;
-const { Client, WebhookClient, RichEmbed } = require('discord.js');
+const { Client, WebhookClient, RichEmbed } = require('discord.js-light');
 const chalk = require('chalk');
 
 const tokens = process.env.guildTokens.split(',');
@@ -78,7 +78,7 @@ for (const token of tokens) {
          }
 
          phin({
-            url: `https://discord.com/api/v8/entitlements/gift-codes/${code}/redeem`,
+            url: `https://discord.com/api/v6/entitlements/gift-codes/${code}/redeem`,
             method: 'POST',
             parse: 'json',
             headers: {
